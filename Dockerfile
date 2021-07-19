@@ -8,7 +8,7 @@ COPY settings.gradle .
 COPY src src
 
 RUN chmod +x ./gradlew
-RUN ./gradlew clean bootJar
+RUN ./gradlew
 
 FROM amazoncorretto:11
 
