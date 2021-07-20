@@ -23,7 +23,7 @@
           "value": "kr-development"
         }
       ],
-      "image": "<IMAGE1_NAME>",
+      "image": "108215377687.dkr.ecr.ap-northeast-2.amazonaws.com/kbg0128-ecr:latest",
       "essential": true,
       "name": "kbg0128-ct-sbt"
     }
