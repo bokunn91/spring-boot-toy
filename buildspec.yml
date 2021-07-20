@@ -24,4 +24,5 @@ artifacts:
   files:
     - taskdef.json
     - appspec.yml
+    - imageDetail.json
   name: sbt-build-artifact-$(date +%Y-%m-%d)
