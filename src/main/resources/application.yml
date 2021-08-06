@@ -4,11 +4,20 @@ management:
       exposure:
         include: health
 
+logging:
+  level:
+    com: debug
+
 ---
 spring:
   config:
     activate:
       on-profile: local
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ${ats.spring.datasource.url}
+    username: ${ats.spring.datasource.username}
+    password: ${ats.spring.datasource.password}
 
 ---
 spring:
